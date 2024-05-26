@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+
+body{
+
+    background-image: url(img/Fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+}
+header{
+  width: 100%;
+  background-color: rgba(255,255,255,0.5);
+  backdrop-filter: blur(3px);
+  height: auto;
+  display: flex;
+
+}
+
+.contenedor{
+  width: 70%;
+  display: flex;
+  text-align: center;
+}
+
+.contenedor h1{
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 39px;
+  color: #fff;
+}
+
+.contenedor nav{
+  padding-left: 210px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.contenedor nav a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  transition: color .4s ease;
+}
+
+.contenedor nav a:hover{
+  color: #f8842b;
+}
+
+.suscribete a {
+  text-decoration-line: none;
+}
+
+.suscribete a span {
+  margin-left: 5px;
+}
+
+.suscribete a:hover {
+  color: #f8842b;
+}
+
+
+.suscribete .suscribete_btn{
+  font-size: 20px;
+  display:flex;
+  padding: 5px 25px;
+  background-color: #f8842b;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #f8842b;
+}
+
+.suscribete_btn{
+  margin-left: 200px;
+}
+
+.suscribete .suscribete_btn:hover {
+  color: #ffffff;
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+.seccion{
+  margin-top: 230px;
+  margin-left: 80px;
+}
+
+p{
+  position:absolute;
+  font-size: 18px;
+  width: 1000px;
+  
+}
+
+
+@media(min-width:768px){
+    .contenedor{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  .contenedor nav{
+    margin: 0;
+    flex-direction: row;
+  }
+}
+
+
+
